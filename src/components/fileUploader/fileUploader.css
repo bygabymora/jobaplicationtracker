@@ -1,0 +1,16 @@
+.add__button{
+    background-color: var(--button-color);
+    color: var(--button-text-color);
+}
+.hidden-input {
+  display: none;
+}   
+.file-name{
+    font-size: var(--normal-font-size);
+    color: var(--title-color);
+    font-weight: bold;
+}
+.choose__file__button{
+    background-color: none;
+    color: var(--title-color);
+}

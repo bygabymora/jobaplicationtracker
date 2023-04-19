@@ -1,0 +1,66 @@
+.h3__title{
+  font-size: var(--h3-font-size);
+  color: var(--title-color);
+  font-weight: bold;
+}
+.add__new__application{
+ background-color: var(--container-color); 
+ font-size: var( --h1-font-size);
+ margin-top: auto;
+}
+.new__button{
+ background-color: var(--button-color);
+ color: var(--button-text-color);
+}
+.add__button{
+    background-color: var(--button-color);
+    color: var(--button-text-color);
+   }
+.form__input{
+  background-color: var(--subcontainer-color); 
+  border-radius: 5px;
+  font-size: var(--normal-font-size);
+  padding-left: 1%;
+  resize: none;
+  color: var(--normal-font-color);
+ 
+}
+.form__input::first-letter{ 
+    text-transform: capitalize;
+}
+.form__input::placeholder {
+    color: gray;
+  }
+
+.form__input:focus{
+  outline: none;
+  background-color: var(--active-color); 
+ 
+}
+.form__input::-webkit-scrollbar {
+    width: 10px;
+
+  }
+  .form__input::-webkit-scrollbar-track{
+    background: var(--pink);
+  } 
+
+  .form__input::-webkit-scrollbar-thumb{
+    background-color: var(--title-color);
+    border-radius: 20px;
+  }
+  .form__input::-webkit-scrollbar-thumb:hover {
+    background-color: var(--title-color-dark);
+  }
+
+.input__label{
+  font-size: var(--normal-font-size);
+  color: var(--title-color);
+  font-weight: bold;
+}
+.error__message{
+  font-size: var(--small-font-size);
+  color: var(--error-color);
+  font-weight: bold;
+  filter: brightness(0.8);
+}

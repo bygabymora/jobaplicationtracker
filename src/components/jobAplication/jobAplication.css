@@ -1,0 +1,38 @@
+.job__aplication{
+    background-color: none;
+    margin: 2%;
+    padding: 2%;
+    color: var(--title-color);
+}
+.company__name{
+    font-weight: bold;
+    color: var(--title-color);
+    background-color: var(--container-color);
+    text-transform: capitalize;
+}
+.company__name::first-letter{
+    text-transform: capitalize;
+} 
+.job__name{
+    color: var(--title-color);
+    background-color: var(--container-color);
+    text-transform: capitalize;
+}
+.job__name::first-letter{
+    text-transform: capitalize;
+}
+.aplication__info::first-letter{
+    text-transform: capitalize;
+} 
+
+.job__name__button{
+    background-color: var(--button-color);
+    color: var(--button-text-color);
+}
+.job__aplication__container{
+    background-color: var(--container-color);
+    margin: 2%;
+    padding: 2%;
+    color: var(--title-color);
+    z-index: -1000;
+}
