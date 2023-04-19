@@ -9,7 +9,10 @@ function App() {
 
   return (
     <div className="App">
-      <h1 className='text-2xl font-bold py-4 pl-6 section__title'>Job Application Tracker </h1>
+      <div className='flex flex-row justify-between'>
+      <h1 className='text-2xl font-bold py-4 pl-6 section__title'><p>Job Application Tracker</p> <br/> <Footer /> </h1>
+      
+      </div>
       <div className='flex flex-row justify-between w-3/4 max-w-md column__title'>
         <h3> Aplication </h3>
           <AddJob jobList={jobList} setJobList={setJobList} className='add__new'/>   
@@ -23,7 +26,7 @@ function App() {
           )
     })} 
     </div> 
-    <Footer style={{bottom:'0'}}/>
+    
       
     </div>
     
